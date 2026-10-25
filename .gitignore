@@ -1,0 +1,15 @@
+# Large model artifacts (over GitHub 100MB limit / too big for repo)
+FYP_System/models/saved_models/*/model.safetensors
+FYP_System/models/saved_models/random_forest.pkl
+FYP_System/models/saved_models/rf_for_ensemble.pkl
+FYP_System/models/saved_models/svm.pkl
+FYP_System/models/saved_models/xgboost.json
+FYP_System/models/embeddings/
+
+# Python / Jupyter junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env

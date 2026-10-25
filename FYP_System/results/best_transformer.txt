@@ -1,0 +1,4 @@
+best_transformer=BERT_finetuned
+best_hf_name=bert-base-uncased
+finetuned=True
+f1_macro=0.0897

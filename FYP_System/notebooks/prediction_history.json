@@ -1,0 +1,662 @@
+[
+  {
+    "id": 1,
+    "patient_id": "f3364df622",
+    "visit_number": 1,
+    "timestamp": "2026-07-17T15:12:24.281066",
+    "patient_name": "Maxxy",
+    "species": "Dog",
+    "breed": "German Shepherd",
+    "age": 5,
+    "gender": "Male",
+    "weight": 32.0,
+    "primary_symptom": "presenting with severe bloody diarrhoea for 48 hours, repeated vomiting, skin rash developing on abdomen, very lethargic, not drinking water, gums pale and dry",
+    "temperature": 41.2,
+    "heart_rate": 148,
+    "symptom_count": 4,
+    "predicted_disease": "Parasitic Infestation",
+    "confidence": 66.2,
+    "danger_category": "Critical",
+    "dangerous_level": 87.5,
+    "is_zoonotic": false,
+    "is_contagious": false,
+    "top10": [
+      {
+        "disease": "Parasitic Infestation",
+        "probability": 66.2
+      },
+      {
+        "disease": "Dermatophytosis",
+        "probability": 25.0
+      },
+      {
+        "disease": "Septicemia",
+        "probability": 3.1
+      },
+      {
+        "disease": "Bacterial Pneumonia",
+        "probability": 2.6
+      },
+      {
+        "disease": "Dermatitis",
+        "probability": 0.7
+      },
+      {
+        "disease": "Gastroenteritis",
+        "probability": 0.6
+      },
+      {
+        "disease": "Viral Infection",
+        "probability": 0.2
+      },
+      {
+        "disease": "Canine Hepatitis",
+        "probability": 0.1
+      },
+      {
+        "disease": "Swine Dysentery",
+        "probability": 0.0
+      },
+      {
+        "disease": "Canine Parvovirus",
+        "probability": 0.0
+      }
+    ],
+    "treatment": "Antiparasitic medication (species-appropriate anthelmintic or antiprotozoal) \u00b7 supportive care \u00b7 environmental decontamination \u00b7 follow-up faecal examination in 2\u20134 weeks",
+    "vet_notes": ""
+  },
+  {
+    "id": 2,
+    "patient_id": "7e51e7b19d",
+    "visit_number": 1,
+    "timestamp": "2026-07-17T15:28:11.809835",
+    "patient_name": "Luna",
+    "species": "Cat",
+    "breed": "Persian",
+    "age": 3,
+    "gender": "Female",
+    "weight": 4.2,
+    "primary_symptom": "sneezing constantly for 5 days, thick yellow nasal discharge, watery eyes, stopped eating, mild cough, hiding under furniture, third eyelid visible",
+    "temperature": 40.1,
+    "heart_rate": 195,
+    "symptom_count": 4,
+    "predicted_disease": "Dermatophytosis",
+    "confidence": 24.7,
+    "danger_category": "High",
+    "dangerous_level": 65.0,
+    "is_zoonotic": true,
+    "is_contagious": false,
+    "top10": [
+      {
+        "disease": "Dermatophytosis",
+        "probability": 24.7
+      },
+      {
+        "disease": "Bacterial Pneumonia",
+        "probability": 22.5
+      },
+      {
+        "disease": "Septicemia",
+        "probability": 13.7
+      },
+      {
+        "disease": "Parasitic Infestation",
+        "probability": 10.9
+      },
+      {
+        "disease": "Feline Calicivirus",
+        "probability": 3.2
+      },
+      {
+        "disease": "Feline Upper Respiratory Infection",
+        "probability": 1.1
+      },
+      {
+        "disease": "Feline Respiratory Infection",
+        "probability": 1.1
+      },
+      {
+        "disease": "Feline Infectious Peritonitis",
+        "probability": 0.8
+      },
+      {
+        "disease": "Feline Leukemia Virus",
+        "probability": 0.7
+      },
+      {
+        "disease": "Feline Herpesvirus",
+        "probability": 0.5
+      }
+    ],
+    "treatment": "Topical antifungal (miconazole/chlorhexidine shampoo twice weekly) \u00b7 systemic itraconazole or terbinafine for severe or generalised cases \u00b7 environmental decontamination \u00b7 biosafety precautions \u2014 zoonotic risk",
+    "vet_notes": ""
+  },
+  {
+    "id": 3,
+    "patient_id": "15011ae750",
+    "visit_number": 1,
+    "timestamp": "2026-07-17T15:30:02.230856",
+    "patient_name": "Coco",
+    "species": "Rabbit",
+    "breed": "Holland Lop",
+    "age": 2,
+    "gender": "Female",
+    "weight": 1.9,
+    "primary_symptom": "has not eaten hay or pellets for 3 days, very soft watery droppings, rapid shallow breathing, hunched posture, teeth grinding, abdomen feels bloated and hard when touched",
+    "temperature": 40.5,
+    "heart_rate": 240,
+    "symptom_count": 3,
+    "predicted_disease": "Parasitic Infestation",
+    "confidence": 70.1,
+    "danger_category": "High",
+    "dangerous_level": 56.9,
+    "is_zoonotic": false,
+    "is_contagious": false,
+    "top10": [
+      {
+        "disease": "Parasitic Infestation",
+        "probability": 70.1
+      },
+      {
+        "disease": "Bacterial Pneumonia",
+        "probability": 28.2
+      },
+      {
+        "disease": "Septicemia",
+        "probability": 1.1
+      },
+      {
+        "disease": "Equine Arthritis",
+        "probability": 0.0
+      },
+      {
+        "disease": "Viral Infection",
+        "probability": 0.0
+      },
+      {
+        "disease": "Equine Osteoarthritis",
+        "probability": 0.0
+      },
+      {
+        "disease": "Equine Leptospirosis",
+        "probability": 0.0
+      },
+      {
+        "disease": "Feline Renal Disease",
+        "probability": 0.0
+      },
+      {
+        "disease": "Snuffles",
+        "probability": 0.0
+      },
+      {
+        "disease": "Myxomatosis",
+        "probability": 0.0
+      }
+    ],
+    "treatment": "Antiparasitic medication (species-appropriate anthelmintic or antiprotozoal) \u00b7 supportive care \u00b7 environmental decontamination \u00b7 follow-up faecal examination in 2\u20134 weeks",
+    "vet_notes": ""
+  },
+  {
+    "id": 4,
+    "patient_id": "f7237497cd",
+    "visit_number": 1,
+    "timestamp": "2026-07-17T15:32:25.605512",
+    "patient_name": "Daisy",
+    "species": "Cow",
+    "breed": "Holstein",
+    "age": 3,
+    "gender": "Female",
+    "weight": 450.0,
+    "primary_symptom": "showing blistering lesions on tongue and feet, salivating excessively, severe lameness, off feed for 3 days, several herd members showing similar signs, vesicles noted on teats",
+    "temperature": 40.8,
+    "heart_rate": 90,
+    "symptom_count": 3,
+    "predicted_disease": "Parasitic Infestation",
+    "confidence": 82.4,
+    "danger_category": "Critical",
+    "dangerous_level": 84.4,
+    "is_zoonotic": false,
+    "is_contagious": false,
+    "top10": [
+      {
+        "disease": "Parasitic Infestation",
+        "probability": 82.4
+      },
+      {
+        "disease": "Septicemia",
+        "probability": 2.9
+      },
+      {
+        "disease": "African Swine Fever",
+        "probability": 1.1
+      },
+      {
+        "disease": "Bovine Viral Diarrhea",
+        "probability": 0.6
+      },
+      {
+        "disease": "Myxomatosis",
+        "probability": 0.4
+      },
+      {
+        "disease": "Bovine Respiratory Disease",
+        "probability": 0.4
+      },
+      {
+        "disease": "Bacterial Pneumonia",
+        "probability": 0.3
+      },
+      {
+        "disease": "Feline Immunodeficiency Virus",
+        "probability": 0.3
+      },
+      {
+        "disease": "Mastitis",
+        "probability": 0.3
+      },
+      {
+        "disease": "Feline Chlamydia",
+        "probability": 0.3
+      }
+    ],
+    "treatment": "Antiparasitic medication (species-appropriate anthelmintic or antiprotozoal) \u00b7 supportive care \u00b7 environmental decontamination \u00b7 follow-up faecal examination in 2\u20134 weeks",
+    "vet_notes": ""
+  },
+  {
+    "id": 5,
+    "patient_id": "493a2e2b2f",
+    "visit_number": 1,
+    "timestamp": "2026-07-17T15:33:36.965776",
+    "patient_name": "Rex",
+    "species": "Snake",
+    "breed": "Python",
+    "age": 2,
+    "gender": "Male",
+    "weight": 1.2,
+    "primary_symptom": "has not eaten in 3 weeks, laboured breathing with open mouth, mucus visible around mouth and nostrils, lethargic and unresponsive to handling, wheezing sound when breathing",
+    "temperature": 28.5,
+    "heart_rate": 40,
+    "symptom_count": 3,
+    "predicted_disease": "Parasitic Infestation",
+    "confidence": 63.5,
+    "danger_category": "Moderate",
+    "dangerous_level": 30.6,
+    "is_zoonotic": false,
+    "is_contagious": false,
+    "top10": [
+      {
+        "disease": "Parasitic Infestation",
+        "probability": 63.5
+      },
+      {
+        "disease": "Septicemia",
+        "probability": 36.1
+      },
+      {
+        "disease": "Equine Encephalitis",
+        "probability": 0.0
+      },
+      {
+        "disease": "Bacterial Pneumonia",
+        "probability": 0.0
+      },
+      {
+        "disease": "Equine Leptospirosis",
+        "probability": 0.0
+      },
+      {
+        "disease": "Equine Arthritis",
+        "probability": 0.0
+      },
+      {
+        "disease": "Snuffles",
+        "probability": 0.0
+      },
+      {
+        "disease": "Equine Infectious Anemia",
+        "probability": 0.0
+      },
+      {
+        "disease": "Bovine Leukemia Virus",
+        "probability": 0.0
+      },
+      {
+        "disease": "Caprine Arthritis Encephalitis Virus",
+        "probability": 0.0
+      }
+    ],
+    "treatment": "Antiparasitic medication (species-appropriate anthelmintic or antiprotozoal) \u00b7 supportive care \u00b7 environmental decontamination \u00b7 follow-up faecal examination in 2\u20134 weeks",
+    "vet_notes": ""
+  },
+  {
+    "id": 6,
+    "patient_id": "d079bcf687",
+    "visit_number": 1,
+    "timestamp": "2026-07-17T15:34:49.821462",
+    "patient_name": "Thunder",
+    "species": "Horse",
+    "breed": "Thoroughbred",
+    "age": 6,
+    "gender": "Male",
+    "weight": 520.0,
+    "primary_symptom": " been showing signs of colic for 12 hours, repeatedly looking at flanks and pawing the ground, rolling and getting up repeatedly, reduced gut sounds on auscultation, loose faeces this morning, mild sweating noted on neck and flanks, refusing hay and water",
+    "temperature": 39.6,
+    "heart_rate": 58,
+    "symptom_count": 4,
+    "predicted_disease": "Parasitic Infestation",
+    "confidence": 99.4,
+    "danger_category": "Critical",
+    "dangerous_level": 87.5,
+    "is_zoonotic": false,
+    "is_contagious": false,
+    "top10": [
+      {
+        "disease": "Parasitic Infestation",
+        "probability": 99.4
+      },
+      {
+        "disease": "Septicemia",
+        "probability": 0.4
+      },
+      {
+        "disease": "Bacterial Pneumonia",
+        "probability": 0.0
+      },
+      {
+        "disease": "Equine Laminitis",
+        "probability": 0.0
+      },
+      {
+        "disease": "Myxomatosis",
+        "probability": 0.0
+      },
+      {
+        "disease": "Equine Osteoarthritis",
+        "probability": 0.0
+      },
+      {
+        "disease": "Feline Leukemia Virus",
+        "probability": 0.0
+      },
+      {
+        "disease": "Snuffles",
+        "probability": 0.0
+      },
+      {
+        "disease": "Equine Encephalitis",
+        "probability": 0.0
+      },
+      {
+        "disease": "Equine Metabolic Syndrome",
+        "probability": 0.0
+      }
+    ],
+    "treatment": "Antiparasitic medication (species-appropriate anthelmintic or antiprotozoal) \u00b7 supportive care \u00b7 environmental decontamination \u00b7 follow-up faecal examination in 2\u20134 weeks",
+    "vet_notes": ""
+  },
+  {
+    "id": 7,
+    "patient_id": "43f75fbe1c",
+    "visit_number": 1,
+    "timestamp": "2026-07-17T15:36:51.475307",
+    "patient_name": "Snowball",
+    "species": "Rabbit",
+    "breed": "Holland Lop",
+    "age": 2,
+    "gender": "Female",
+    "weight": 1.8,
+    "primary_symptom": "has been eating less than usual for the past 2 days, seems quieter than normal, still drinking water, no obvious signs of pain or distress, moving around normally, soft droppings noticed this morning",
+    "temperature": 38.9,
+    "heart_rate": 210,
+    "symptom_count": 1,
+    "predicted_disease": "Rabbit Viral Hemorrhagic Disease",
+    "confidence": 92.4,
+    "danger_category": "Low",
+    "dangerous_level": 16.0,
+    "is_zoonotic": false,
+    "is_contagious": true,
+    "top10": [
+      {
+        "disease": "Rabbit Viral Hemorrhagic Disease",
+        "probability": 92.4
+      },
+      {
+        "disease": "Rabbit Hemorrhagic Disease",
+        "probability": 1.1
+      },
+      {
+        "disease": "Feline Respiratory Disease Complex",
+        "probability": 1.0
+      },
+      {
+        "disease": "Myxomatosis",
+        "probability": 0.5
+      },
+      {
+        "disease": "Equine Viral Arteritis",
+        "probability": 0.3
+      },
+      {
+        "disease": "Viral Hemorrhagic Disease",
+        "probability": 0.2
+      },
+      {
+        "disease": "Snuffles",
+        "probability": 0.2
+      },
+      {
+        "disease": "Feline Respiratory Infection",
+        "probability": 0.1
+      },
+      {
+        "disease": "Rabbit Syphilis",
+        "probability": 0.1
+      },
+      {
+        "disease": "Feline Panleukopenia",
+        "probability": 0.1
+      }
+    ],
+    "treatment": "Not recorded",
+    "vet_notes": ""
+  },
+  {
+    "id": 8,
+    "patient_id": "906a133ca7",
+    "visit_number": 1,
+    "timestamp": "2026-07-17T15:38:01.385606",
+    "patient_name": "Buddy",
+    "species": "Dog",
+    "breed": "Labrador",
+    "age": 4,
+    "gender": "Male",
+    "weight": 28.0,
+    "primary_symptom": "has been off food for 2 days, intermittent vomiting, persistent cough worsening over 3 days, laboured breathing noted this morning, lethargy increasing, gums appear pale",
+    "temperature": 41.2,
+    "heart_rate": 148,
+    "symptom_count": 4,
+    "predicted_disease": "Parasitic Infestation",
+    "confidence": 32.8,
+    "danger_category": "Critical",
+    "dangerous_level": 87.5,
+    "is_zoonotic": false,
+    "is_contagious": false,
+    "top10": [
+      {
+        "disease": "Parasitic Infestation",
+        "probability": 32.8
+      },
+      {
+        "disease": "Bacterial Pneumonia",
+        "probability": 16.6
+      },
+      {
+        "disease": "Dermatophytosis",
+        "probability": 15.4
+      },
+      {
+        "disease": "Leptospirosis",
+        "probability": 13.7
+      },
+      {
+        "disease": "Septicemia",
+        "probability": 12.9
+      },
+      {
+        "disease": "Canine Distemper",
+        "probability": 0.8
+      },
+      {
+        "disease": "Feline Respiratory Infection",
+        "probability": 0.4
+      },
+      {
+        "disease": "Dermatitis",
+        "probability": 0.4
+      },
+      {
+        "disease": "Canine Influenza",
+        "probability": 0.3
+      },
+      {
+        "disease": "Feline Chlamydiosis",
+        "probability": 0.2
+      }
+    ],
+    "treatment": "Antiparasitic medication (species-appropriate anthelmintic or antiprotozoal) \u00b7 supportive care \u00b7 environmental decontamination \u00b7 follow-up faecal examination in 2\u20134 weeks",
+    "vet_notes": ""
+  },
+  {
+    "id": 9,
+    "patient_id": "906a133ca7",
+    "visit_number": 2,
+    "timestamp": "2026-07-17T15:38:55.411261",
+    "patient_name": "Buddy",
+    "species": "Dog",
+    "breed": "Labrador",
+    "age": 4,
+    "gender": "Male",
+    "weight": 28.0,
+    "primary_symptom": "Cough has improved significantly since last visit but still present occasionally. Appetite returning, eating about half normal portion. Energy levels improving. Temperature now closer to normal",
+    "temperature": 39.1,
+    "heart_rate": 98,
+    "symptom_count": 2,
+    "predicted_disease": "Parasitic Infestation",
+    "confidence": 20.4,
+    "danger_category": "Moderate",
+    "dangerous_level": 40.2,
+    "is_zoonotic": false,
+    "is_contagious": false,
+    "top10": [
+      {
+        "disease": "Parasitic Infestation",
+        "probability": 20.4
+      },
+      {
+        "disease": "Bacterial Pneumonia",
+        "probability": 16.6
+      },
+      {
+        "disease": "Septicemia",
+        "probability": 11.4
+      },
+      {
+        "disease": "Dermatophytosis",
+        "probability": 11.1
+      },
+      {
+        "disease": "Johne's Disease",
+        "probability": 3.5
+      },
+      {
+        "disease": "Canine Parvovirus",
+        "probability": 1.3
+      },
+      {
+        "disease": "Feline Respiratory Infection",
+        "probability": 1.2
+      },
+      {
+        "disease": "Canine Influenza",
+        "probability": 1.2
+      },
+      {
+        "disease": "Canine Cough",
+        "probability": 1.0
+      },
+      {
+        "disease": "Viral Infection",
+        "probability": 1.0
+      }
+    ],
+    "treatment": "Antiparasitic medication (species-appropriate anthelmintic or antiprotozoal) \u00b7 supportive care \u00b7 environmental decontamination \u00b7 follow-up faecal examination in 2\u20134 weeks",
+    "vet_notes": ""
+  },
+  {
+    "id": 10,
+    "patient_id": "db60b355a0",
+    "visit_number": 1,
+    "timestamp": "2026-07-23T10:31:27.532212",
+    "patient_name": "Bramble",
+    "species": "Rabbit",
+    "breed": "Netherland Dwarf",
+    "age": "Unknown",
+    "gender": "Male",
+    "weight": 1.4,
+    "primary_symptom": "Found abandoned in a garden 3 days ago, hasnt touched hay or pellets since being taken in",
+    "temperature": 40.3,
+    "heart_rate": 180,
+    "symptom_count": 3,
+    "predicted_disease": "Rabbit Hemorrhagic Disease",
+    "confidence": 21.4,
+    "danger_category": "High",
+    "dangerous_level": 64.1,
+    "is_zoonotic": false,
+    "is_contagious": true,
+    "top10": [
+      {
+        "disease": "Rabbit Hemorrhagic Disease",
+        "probability": 21.4
+      },
+      {
+        "disease": "Snuffles",
+        "probability": 10.6
+      },
+      {
+        "disease": "Dermatophytosis",
+        "probability": 6.5
+      },
+      {
+        "disease": "Parasitic Infestation",
+        "probability": 4.6
+      },
+      {
+        "disease": "Johne's Disease",
+        "probability": 4.5
+      },
+      {
+        "disease": "Feline Respiratory Infection",
+        "probability": 4.1
+      },
+      {
+        "disease": "Mastitis",
+        "probability": 3.3
+      },
+      {
+        "disease": "Caprine Arthritis Encephalitis Virus",
+        "probability": 2.2
+      },
+      {
+        "disease": "Canine Infectious Hepatitis",
+        "probability": 1.9
+      },
+      {
+        "disease": "Myxomatosis",
+        "probability": 1.8
+      }
+    ],
+    "treatment": "Intensive supportive care including electrolyte correction, therapeutic medication, dietary modification, and isolation to prevent transmission.",
+    "vet_notes": ""
+  }
+]

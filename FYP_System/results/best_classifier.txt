@@ -1,0 +1,12 @@
+best_classifier=XGBoost (BERT+Struct+Species)
+best_transformer=BERT_finetuned
+val_f1_macro=0.2435
+cv_f1_mean=0.1697
+cv_f1_std=0.0118
+xgb_cv_f1_mean=0.2490
+xgb_cv_f1_std=0.0157
+used_combined=True
+used_species_breed=True
+n_features=797
+n_models=4
+models=LogisticRegression,MLP,RandomForest,XGBoost

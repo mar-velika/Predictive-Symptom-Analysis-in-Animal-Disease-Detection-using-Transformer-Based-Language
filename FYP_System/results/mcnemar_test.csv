@@ -1,0 +1,2 @@
+Best_Model,Second_Model,n_01,n_10,Chi2,p_value,Significant
+XGBoost (BERT+Struct+Species),Fine-tuned BERT,1173,1069,4.7319,0.029608,True

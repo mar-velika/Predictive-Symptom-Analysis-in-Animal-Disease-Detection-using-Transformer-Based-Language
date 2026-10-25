@@ -1,0 +1,4 @@
+Metric,Value,Interpretation
+F1 Micro (= Accuracy),0.3482,Dominated by common classes
+F1 Weighted,0.3599,"Common classes weighted more, rare classes still count"
+F1 Macro (primary),0.1868,Every class counts equally — clinically appropriate

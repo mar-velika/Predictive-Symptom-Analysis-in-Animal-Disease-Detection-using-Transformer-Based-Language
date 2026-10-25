@@ -1,0 +1,5 @@
+Study,Model,N_Classes,N_Species,Dataset_Size,Accuracy,F1_Macro,AUC_ROC,Top5_Accuracy,Task_Complexity
+"VetLLM (Jiang et al., 2024)",LLaMA fine-tuned,~20,1 (cattle),200 notes,~0.82,~0.79,NR,NR,"Low (1 species, ~20 classes)"
+"BioBERT (Lee et al., 2020)",BioBERT,<10,Human (proxy),Various,~0.87,~0.84,NR,NR,"Low (human, <10 classes)"
+"PubMedBERT (Gu et al., 2021)",PubMedBERT,<10,Human (proxy),PubMed corpus,~0.88,~0.86,NR,NR,"Low (human, <10 classes)"
+"VetDx (This Work, 2026)",BERT + XGBoost (fusion),162,16,"59,314 cases",0.3485,0.1167,0.9846,0.9911,"HIGH (16 species, 162 classes) ← hardest task"

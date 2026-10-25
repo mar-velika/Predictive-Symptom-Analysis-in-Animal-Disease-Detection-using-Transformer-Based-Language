@@ -1,0 +1,14 @@
+Metric,Value,Target,Met
+Accuracy,0.3482,≥ 0.85,❌
+Precision (Macro),0.1753,—,—
+Recall (Macro),0.2209,—,—
+F1 Macro (all classes),0.1868,≥ 0.80,❌
+F1 Macro (excl. singleton classes),0.1868,—,—
+F1 Macro (high-support classes only),0.1943,—,—
+Top-1 Accuracy,0.3482,—,—
+Top-3 Accuracy,0.7366,—,—
+Top-5 Accuracy,0.99,—,—
+Top-10 Accuracy,0.9993,—,—
+F1 Micro,0.3482,—,—
+F1 Weighted,0.3599,—,—
+AUC-ROC (Macro),0.9843,≥ 0.90,✅

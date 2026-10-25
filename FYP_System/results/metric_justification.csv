@@ -1,0 +1,11 @@
+Metric,Value,Note
+n_classes,162.0,Total disease classes
+n_zero_support_classes,0.0,Classes with 0 test samples
+n_zero_f1_classes,95.0,Classes where F1=0
+random_baseline_acc,0.006173,1/162
+our_accuracy,0.3482,Actual accuracy
+improvement_over_random,56.4,Times better than random
+f1_macro_all,0.1868,Includes zero-support classes
+f1_macro_nonzero_only,0.2927,Excludes zero-F1 classes
+auc_roc_macro,0.9843,Primary metric
+top5_accuracy,0.99,Clinical use-case metric

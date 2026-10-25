@@ -1,0 +1,21 @@
+True_Label,Predicted_As,Count
+Septicemia,Bacterial Pneumonia,222
+Parasitic Infestation,Viral Infection,207
+Parasitic Infestation,Bacterial Pneumonia,206
+Bacterial Pneumonia,Viral Infection,194
+Septicemia,Viral Infection,185
+Parasitic Infestation,Septicemia,157
+Septicemia,Parasitic Infestation,150
+Bacterial Pneumonia,Gastroenteritis,71
+Parasitic Infestation,Gastroenteritis,67
+Viral Infection,Gastroenteritis,62
+Septicemia,Gastroenteritis,61
+Bacterial Pneumonia,Septicemia,57
+Septicemia,Respiratory Distress Syndrome,46
+Bacterial Pneumonia,Respiratory Distress Syndrome,44
+Bacterial Pneumonia,Parasitic Infestation,43
+Parasitic Infestation,Respiratory Distress Syndrome,43
+Lizard Parasitic Infestation ,Lizard Dermal Fungal Infection ,31
+Ichthyophthirius Multifiliis Infection ,Swim Bladder Disorder ,31
+Parasitic Infestation,Dermatophytosis,31
+Dermatitis,Gastroenteritis,31
